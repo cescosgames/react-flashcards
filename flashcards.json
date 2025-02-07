@@ -1,0 +1,54 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "question": "What is the virtual DOM in React?",
+      "answer": "The virtual DOM is a lightweight representation of the real DOM used by React to improve performance by minimizing direct DOM manipulations."
+    },
+    {
+      "id": 2,
+      "question": "What is a React hook, and can you name three common hooks?",
+      "answer": "A React hook is a function that lets you use React state and lifecycle features in functional components. Common hooks are useState, useEffect, and useContext."
+    },
+    {
+      "id": 3,
+      "question": "What are props in React?",
+      "answer": "Props (short for properties) are a way of passing data from parent to child components in React."
+    },
+    {
+      "id": 4,
+      "question": "How do you pass a function as a prop in React?",
+      "answer": "You pass a function as a prop by including it in the parent component's JSX and then accessing it from the child component using props."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of keys in React lists?",
+      "answer": "Keys help React identify which items in a list have changed, are added, or are removed, improving the efficiency of rendering."
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between a controlled and an uncontrolled component in React?",
+      "answer": "A controlled component has its form data managed by React state, while an uncontrolled component manages its form data through the DOM."
+    },
+    {
+      "id": 7,
+      "question": "What is the significance of the useEffect dependency array?",
+      "answer": "The dependency array in useEffect determines when the effect should re-run. If it is empty, the effect runs only once after the component mounts."
+    },
+    {
+      "id": 8,
+      "question": "What is the React context API?",
+      "answer": "The React context API provides a way to share values like themes or authentication state between components without passing props through every level of the component tree."
+    },
+    {
+      "id": 9,
+      "question": "How can you optimize performance in a React application?",
+      "answer": "Performance can be optimized by using React.memo, lazy loading, code splitting, and avoiding unnecessary re-renders with useCallback or useMemo."
+    },
+    {
+      "id": 10,
+      "question": "What is the difference between React.Fragment and a div in JSX?",
+      "answer": "React.Fragment is used to group multiple elements without adding an extra node to the DOM, while a div will add an extra DOM element."
+    }
+  ]
+}
