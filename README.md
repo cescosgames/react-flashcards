@@ -2,6 +2,8 @@
 The goal of this project was to practice and implement state management and componenet based architecture using JavaScript frameworks. We were required to have; pre-defined flashcards with questions
 and answers, progress bar to show the user's progress, ability to view flashcards one at a atime and flip to reveal the answer, simple naviation to cycle through the flashcards. The visual mockup
 was provided by roadmap.sh.
+<br>
+Project link: https://roadmap.sh/projects/flash-cards
 
 ## How it was made:
 
